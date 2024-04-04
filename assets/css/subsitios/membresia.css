@@ -269,7 +269,7 @@ span.item-beneficio-titulo {
 }
 
 div.item-beneficio p {
-    font-size: calc(10px +(15 - 12)*((70vw - 300px) /(900 - 600)));
+    font-size: calc(10px +(15 - 12)*((70vw - 300px) /(9.00 - 600)));
     font-weight: 300;
 }
 

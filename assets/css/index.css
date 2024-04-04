@@ -208,6 +208,23 @@
             color: #ffffff;
         }
 
+/* PROXIMAMENTE */
+
+.proximamente {
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.proximamente span {
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
 /* GENERAL */
 
     html {
