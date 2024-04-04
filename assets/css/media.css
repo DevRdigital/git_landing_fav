@@ -20,25 +20,26 @@
     }
 
     div#cnt_general_covermanager {
-        padding: 2rem 1rem !important;
-        padding-bottom: 5rem !important;
+        padding-bottom: 2rem !important;
     }
 
-    figure.alianza-img-calcu {
-        transform: translateY( calc(-600px - -20vw - 20vh) );
+    #cnt_general_covermanager .cnt-general-doble-der { display: none;}
+
+    .cnt-general-doble-izq .alianza-img-calcu {
+        display:block !important;
+        padding-bottom: 4rem;
     }
 
-    .cnt-alianza-texto, .cnt-alianza-pre-numeros, .cnt-alianza-numeros {
-        transform: translateY(625px);
-    }
-
-    div#cnt_general_covermanager .cnt-general-doble-der figure.alianza-img-calcu img:nth-child(2) {
+    div#cnt_general_covermanager figure.alianza-img-calcu img
+    {
         width: 100%;
-        transform: translate(8rem, 4rem) !important;
+        max-width: 400px;
     }
 
-    div#cnt_general_covermanager .cnt-general-doble-der figure.alianza-img-calcu img:first-child {
-        width: 100% !important;
+
+    div#cnt_general_covermanager figure.alianza-img-calcu img:nth-child(2) {
+        position: absolute;
+        transform: translate(-6rem, 7rem);
     }
 
     #cnt_home_presentacion div:first-child {
@@ -140,7 +141,8 @@
         margin: auto;
         width: max-content;
         display: flex;
-        flex-direction: column;
+        flex-direction: column !important;
+        align-content: center !important;
     }
 
     .cnt-items-beneficio {
@@ -290,6 +292,14 @@
         height: 30px !important;
         min-height: 30px !important;
         max-height: 30px !important;
+    }
+
+    form .cnt-input .form-group {
+        flex: none !important;
+    }
+
+    .cnt-input {
+        margin-bottom: 1rem;
     }
 
     /* MEMBRESIA */

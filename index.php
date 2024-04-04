@@ -156,6 +156,11 @@
                                     <img async loading="lazy" src="./assets/img/home/covermanager.png">
                                 </figure>
                             </div>
+
+                            <figure class="alianza-img-calcu">
+                                <img async loading="lazy" src="./assets/img/home/calcu_uno.png">
+                                <img async loading="lazy" src="./assets/img/home/calcu_dos.png">
+                            </figure>
         
                             <div class="cnt-alianza-texto">
                                 <span>
