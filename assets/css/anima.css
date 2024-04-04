@@ -1,0 +1,14 @@
+/* CSS para animaciones*/
+
+.anima-a {
+    animation: ease-in-out 0.5s aparece;
+}
+
+.anima-a-a {
+    animation: ease-in-out 0.5s aparece;
+}
+
+.anima-d {
+
+    animation: ease-in-out 0.5s desaparece;
+}

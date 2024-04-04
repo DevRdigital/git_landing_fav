@@ -1,0 +1,436 @@
+/*---------- HOME ----------*/ 
+
+.home-bkg-image figure img {
+    min-height: 300px;
+}
+
+/*--- Section Presentacion ---*/
+
+div#cnt_general_presentacion {
+    margin-top: 60px;
+}
+
+div#cnt_general_presentacion,
+div#cnt_general_beneficio,
+div#cnt_general_impulso,
+div#cnt_general_servicios,
+div#cnt_general_experiencia,
+div#cnt_general_membresia,
+div#cnt_general_formulario
+{
+    padding: 2rem;
+    position: relative;
+}
+
+div#cnt_home_presentacion {
+    padding-right: 2rem;
+}
+
+#cnt_general_presentacion .cnt-general-doble {
+    align-items: flex-end;
+}
+
+
+#cnt_home_presentacion div:first-child 
+{
+    width: 75%;
+}
+
+#cnt_home_presentacion .texto-claro {
+    font-size: calc(5px + (15 - 12) * ((100vw - 300px) / (800 - 600)));
+}
+
+
+#cnt_home_presentacion div:nth-child(2)
+{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+#cnt_home_presentacion div:nth-child(2) span
+{
+    font-size: 2.5rem;
+    color: var(--color-main);
+    font-weight: 800;
+}
+
+div#cnt_home_img_libres {
+    position: relative;
+}
+
+div#cnt_home_img_libres figure img
+{
+    aspect-ratio: 4/4;
+    border-radius: 0.5rem;
+    overflow: hidden;
+}
+
+div#cnt_general_presentacion #cnt_home_img_libres .img-cuadro-uno img:nth-child(1) {
+    max-width: 500px;
+    width: 75%;
+    height: auto;
+}
+
+div#cnt_general_presentacion #cnt_home_img_libres .img-cuadro-uno img:nth-child(2), div#cnt_general_presentacion #cnt_home_img_libres .img-cuadro-uno img:nth-child(3) {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 45%;
+}
+
+div#cnt_general_presentacion #cnt_home_img_libres .img-cuadro-uno img:nth-child(2) {
+    transform: translate(10rem, 0rem);
+}
+
+div#cnt_general_presentacion #cnt_home_img_libres .img-cuadro-uno img:nth-child(3) {
+    transform: translate(2rem, -6rem);
+}
+
+/*--- Section Pre Beneficios ---*/
+
+div#cnt_general_pre_beneficios {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+}
+
+div#cnt_general_pre_beneficios .img-borde-der img, div#cnt_general_pre_beneficios .img-borde-izq img {
+    width: 200px;
+    height: 200px;
+    border-radius: 1rem;
+    overflow: hidden;
+}
+
+div#cnt_general_pre_beneficios .img-borde-der {
+    position: absolute;
+    top: 0;
+    right: -1rem;
+}
+
+div#cnt_general_pre_beneficios .img-borde-izq {
+    position: absolute;
+    top: 0;
+    left: -1rem;
+}
+
+div#cnt_general_pre_beneficios .cnt-centrado {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    align-content: center;
+    gap: 2rem;
+}
+
+div#cnt_general_pre_beneficios .cnt-centrado div { 
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.icono-centrado {
+    height: 100px;
+    width: 160px;
+    display: flex;
+    justify-content: center;
+}
+
+div#cnt_general_beneficio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+/*--- Section Beneficios ---*/
+
+.cnt-items-beneficio {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: flex-start;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+    overflow: hidden;
+    overflow-x: scroll;
+    scroll-snap-type: x proximity;
+}
+
+.item-beneficio {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: flex-start;
+    justify-content: flex-start;
+    align-items: center;
+    flex: 1 0 190px;
+    scroll-snap-align: start;
+    padding: .5rem;
+}
+
+.item-beneficio span {
+    text-align: center;
+}
+
+/* Section Covermanager*/
+
+div#cnt_general_covermanager {
+    padding: 3rem;
+    position: relative;
+    padding-bottom: 10rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+#cnt_general_covermanager .cnt-general-doble {
+    justify-content: center;
+}
+
+#cnt_general_covermanager .cnt-general-doble-izq {
+    display: flex;
+    gap: 2rem;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#cnt_general_covermanager  .cnt-general-doble-der {
+    justify-content: center;
+}
+
+.cnt-alianza-texto span {
+    font-size: 1rem;
+}
+
+.cnt-alianza-numeros {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.cnt-numero-item {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex: 1 0 100px;
+}
+
+span.numero-item-titulo {
+    font-size: 2rem;
+    font-weight: bolder;
+    color: var(--color-main);
+}
+
+div#cnt_general_covermanager .cnt-general-doble-der figure.alianza-img-calcu img:first-child {
+    width: auto;
+    min-width: 250px;
+    max-width: 350px;
+}
+
+div#cnt_general_covermanager cnt-general-doble-der {
+    justify-content: center;
+}
+
+div#cnt_general_covermanager .cnt-general-doble-der figure.alianza-img-calcu img:nth-child(2) {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    min-width: 200px;
+    max-width: 300px;
+    transform: translate(10rem, 10rem);
+}
+
+/* SERVICIOS */
+
+div#cnt_general_servicios .titulo-general {
+    width: 60%;
+}
+
+.item-impulso {
+    flex: 1 0 200px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: flex-start;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+span.titulo-impulso {
+    color: var(--color-main);
+    font-size: .85rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+/* EXPERIENCIA*/
+
+.experiencia-item {
+    border: none;
+    border-bottom: solid 1px;
+    padding-bottom: 1rem;
+}
+
+div#cnt_experiencia_items {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+span.experiencia-item-titulo {
+    color: #ffffff;
+    display: block;
+    font-size: .9rem;
+    font-weight: 900;
+}
+
+span#experiencia_titulo {
+    font-weight: 900;
+}
+
+/* Section Membresia */
+
+div#cnt_general_membresia {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+div#cnt_membresia_titulo {
+    display: flex;
+    align-items: flex-end;
+}
+
+div#cnt_general_membresia .subtitulo {
+    margin: 0 auto;
+}
+
+.item-membresia {
+    background-color: #ffffff;
+    border-radius: 0.5rem;
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    flex: 1 0 250px;
+    position: relative;
+    overflow: hidden;
+    padding-bottom: 2rem;
+
+    box-shadow: 0px 2px 7px 7px rgba(0,0,0,0.075);
+    -webkit-box-shadow: 0px 2px 7px 7px rgba(0,0,0,0.075);
+    -moz-box-shadow: 0px 2px 7px 7px rgba(0,0,0,0.075);
+}
+
+.item-membresia .membresia-body {
+    padding: 1rem;
+}
+
+div#cnt_general_membresia .item-membresia:nth-child(1) .titulo-membresia {
+    color: var(--color-main);
+}
+
+div#cnt_general_membresia .item-membresia:nth-child(2) .titulo-membresia {
+    color: var(--color-main-rosa-intermedio);
+}
+
+div#cnt_general_membresia .item-membresia:nth-child(3) .titulo-membresia {
+    color: var(--color-main-rosa-obscuro);
+}
+
+.item-membresia footer.membresia-footer {
+    padding: 1rem;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: right;
+}
+
+.item-membresia footer.membresia-footer span:nth-child(1) {
+    color: var(--texto-claro);
+}
+
+.item-membresia footer.membresia-footer span:nth-child(2) {
+    color: var(--texto-gris);
+    font-weight: 100;
+}
+
+div#cnt_general_membresia .item-membresia:nth-child(1) footer.membresia-footer {
+    background-color: var(--color-main);
+}
+
+div#cnt_general_membresia .item-membresia:nth-child(2) footer.membresia-footer {
+    background-color: var(--color-main-rosa-intermedio);
+}
+
+div#cnt_general_membresia .item-membresia:nth-child(3) footer.membresia-footer {
+    background-color: var(--color-main-rosa-obscuro);
+}
+
+#cnt_general_formulario .cnt-general-doble-izq {
+    flex-direction: column;
+}
+
+.cnt-alianza-pre-numeros span {
+    font-size: calc(16px + (14 - 14) * ((100vw - 300px) / (800 - 600)));
+}
+
+.cnt-alianza-pre-numeros .subtitulo {
+    margin-top: 1rem;
+    display: block;
+}
+
+#cnt_general_experiencia .cnt-general-doble-der {
+    flex-direction:column !important;
+}
+
+/* Contenedor de imagenes */
+
+.cnt-alianza-imagenes {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: flex-start;
+    gap: 1rem;
+}
+
+
+.cnt-alianza-imagenes figure {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: space-around;
+    gap: .5rem;
+    flex: 1 0 150px;
+}
+
+.cnt-alianza-imagenes figure img:nth-child(2) {
+    height: auto;
+    min-height: 25px;
+    max-height: 50px;
+}
+
+.cnt-alianza-imagenes figure img {
+    height: auto;
+    min-height: 25px;
+    max-height: 70px;
+    width: auto;
+}
+
+.cnt-alianza-imagenes figure:nth-child(1) img {
+    height: auto;
+    min-height: 30px;
+    max-height: 50px;
+}

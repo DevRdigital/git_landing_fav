@@ -1,0 +1,111 @@
+@import 'modulos/reset.min.css';
+@import 'modulos/spectre.min.css';
+@import 'modulos/line-awesome.css';
+
+:root {
+  --general-font-size: 100%;
+  --body-font-type:'manrope';
+  --bggradient-medio:#17191a;
+  --bggradinet-start:#17191a;
+
+  --medida-menu: calc(42px + (70 - 42) * ((100vw - 300px) / (1600 - 300)));
+  --alto-cabecera: 65px;
+  --swiper-navigation-size: 13px;
+
+  --color-main: rgba(252, 68, 110);
+  --color-main-claro: rgba(255, 244, 246);
+  --color-main-obscuro: rgba(38, 21, 37);
+  --color-main-gris: rgba(0, 0, 0, 0.1);
+  --color-main-rosa-intermedio: rgba(173, 48, 77, 1);
+  --color-main-rosa-obscuro: rgba(79, 43, 77, 1);
+
+  --color-borde: rgba(0, 0, 0, 0.1);
+  /*Color texto*/
+  --color-a: rgba(79, 43, 77);
+  --texto-claro: rgb(255, 255, 255);
+  --texto-gris: rgba(255, 255, 255, 0.5);
+  --texto-gris-obscuro: rgba(0, 0, 0, 0.5);
+
+  /*BKG*/
+  --bk-blanco: #ffffff;
+  --bk-rosa: rgba(252, 68, 110);
+  --bk-rosa-claro: rgba(79, 43, 77, 0.1);
+  --bk-rosa-obscuro: rgb(79, 43, 77);
+  --bk-azul: rgba(0, 23, 90, 1);
+
+}
+
+@font-face {
+  font-family: 'manrope';
+  src: url(./fonts/Manrope-VariableFont_wght.ttf);
+}
+
+@font-face {
+  font-family: 'regular_brush';
+  src: url(./fonts/regular_brush.otf);
+}
+
+html body *
+{
+  font-size: calc(14px + (14 - 12) * ((100vw - 300px) / (1600 - 300))) ;
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+}
+body .title
+{
+  font-size:  calc(25px + (35 - 25) * ((100vw - 300px) / (1600 - 300)));
+  font-family: 'manrope';
+  line-height: 2rem;
+}
+body .subtitle
+{
+    font-size: calc(16px + (23 - 16) * ((100vw - 300px) / (1600 - 300)));
+    font-family: 'manrope';
+    line-height: 2rem;
+}
+
+body .presubtitle
+{
+    font-size: calc(14px + (16 - 14) * ((100vw - 300px) / (1600 - 300)));
+    font-family: 'manrope';
+    line-height: 2rem;
+}
+
+body .txt, body .txt *
+{
+    font-size: calc(11px + (15 - 11) * ((100vw - 300px) / (1600 - 300)));
+}
+
+/* 
+  Estilos de css personalizados debajo 
+  Scrollbar
+*/
+[scrollbr] {
+  scrollbar-width: 5px;
+  scrollbar-color: transparent transparent;
+  transition: scrollbar-color 3000ms linear;
+}
+[scrollbr]:hover {
+  scrollbar-color: black transparent;
+}
+[scrollbr]:not(:hover)::-webkit-scrollbar-thumb {
+  background: transparent;
+}
+[scrollbr]::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+[scrollbr]::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  transition   : background 0.3s;
+  background   : #4ca15a;
+  background   : -moz-linear-gradient(90deg, #4ca15a 20%, #4ca15a 91%);
+  background   : -webkit-linear-gradient(90deg, #4ca15a 20%, #4ca15a 91%);
+  background   : linear-gradient(90deg, #4ca15a 20%, #4ca15a 91%);
+  filter       : progid: DXImageTransform.Microsoft.gradient(startColorstr = "#915fd0",endColorstr = "#746ec6",GradientType = 1);
+}
