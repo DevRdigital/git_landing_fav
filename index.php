@@ -164,7 +164,7 @@
         
                             <div class="cnt-alianza-texto">
                                 <span>
-                                    Con FAV tu restaurante accede a la plataforma tecnológica de reservas de Cover Manager para gestionar mejor su negocio, maximizar sus ingresos y obtener mayor valor.
+                                    Con FAV tu restaurante accede a la plataforma tecnológica de reservas de <strong>Cover Manager</strong> para gestionar mejor su negocio, maximizar sus ingresos y obtener mayor valor.
                                 </span>
                             </div>
         

@@ -29,8 +29,8 @@
   /*BKG*/
   --bk-blanco: #ffffff;
   --bk-rosa: rgba(252, 68, 110);
-  --bk-rosa-claro: rgba(79, 43, 77, 0.1);
-  --bk-rosa-obscuro: rgb(79, 43, 77);
+  --bk-rosa-claro: rgb(255, 244, 246);
+  --bk-rosa-obscuro: rgb(38, 21, 37);
   --bk-azul: rgba(0, 23, 90, 1);
 
 }

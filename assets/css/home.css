@@ -18,12 +18,12 @@ div#cnt_general_experiencia,
 div#cnt_general_membresia,
 div#cnt_general_formulario
 {
-    padding: 2rem;
+    padding: 3rem;
     position: relative;
 }
 
 div#cnt_home_presentacion {
-    padding-right: 2rem;
+    padding-right: 3rem;
 }
 
 #cnt_general_presentacion .cnt-general-doble {
@@ -67,7 +67,6 @@ div#cnt_home_img_libres figure img
 }
 
 div#cnt_general_presentacion #cnt_home_img_libres .img-cuadro-uno img:nth-child(1) {
-    max-width: 500px;
     width: 75%;
     height: auto;
 }
@@ -181,7 +180,7 @@ div#cnt_general_beneficio {
 div#cnt_general_covermanager {
     padding: 3rem;
     position: relative;
-    padding-bottom: 10rem;
+    padding-bottom: 5rem;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -205,8 +204,13 @@ div#cnt_general_covermanager {
     justify-content: center;
 }
 
-.cnt-alianza-texto span {
-    font-size: 1rem;
+.cnt-alianza-texto span, .cnt-alianza-pre-numeros span {
+    font-size: calc(20px + (20 - 12) * ((100vw - 300px) / (1600 - 300)));
+}
+
+.cnt-alianza-texto span strong, .cnt-alianza-pre-numeros span strong {
+    font-weight: bold;
+    font-size: calc(20px + (20 - 12) * ((100vw - 300px) / (1600 - 300)));
 }
 
 .cnt-alianza-numeros {
@@ -293,15 +297,31 @@ div#cnt_experiencia_items {
 span.experiencia-item-titulo {
     color: #ffffff;
     display: block;
-    font-size: .9rem;
+    font-size: calc(18px + (20 - 12) * ((100vw - 300px) / (1600 - 300)));
     font-weight: 900;
+}
+
+div.experiencia-item span:nth-child(2) {
+    font-size: calc(12px + (20 - 12) * ((100vw - 300px) / (1600 - 300)));
+}
+
+div.experiencia-item span:nth-child(2) strong {
+    font-weight: bold;
+    font-size: calc(12px + (20 - 12) * ((100vw - 300px) / (1600 - 300)));
 }
 
 span#experiencia_titulo {
     font-weight: 900;
+    font-size: calc(12px + (20 - 12) * ((100vw - 300px) / (1600 - 300)));
 }
 
 /* Section Membresia */
+
+#cnt_general_membresia .cnt-general-triple {
+    overflow: hidden;
+    overflow-x: scroll;
+    padding: 0.5rem;
+}
 
 div#cnt_general_membresia {
     display: flex;
@@ -311,7 +331,7 @@ div#cnt_general_membresia {
 
 div#cnt_membresia_titulo {
     display: flex;
-    align-items: flex-end;
+    align-items: center;
 }
 
 div#cnt_general_membresia .subtitulo {
@@ -325,7 +345,7 @@ div#cnt_general_membresia .subtitulo {
     display: flex;
     flex-direction: column;
     gap: 1rem;
-    flex: 1 0 250px;
+    flex: 1 0 350px;
     position: relative;
     overflow: hidden;
     padding-bottom: 2rem;
@@ -384,10 +404,6 @@ div#cnt_general_membresia .item-membresia:nth-child(3) footer.membresia-footer {
     flex-direction: column;
 }
 
-.cnt-alianza-pre-numeros span {
-    font-size: calc(16px + (14 - 14) * ((100vw - 300px) / (800 - 600)));
-}
-
 .cnt-alianza-pre-numeros .subtitulo {
     margin-top: 1rem;
     display: block;
@@ -415,9 +431,8 @@ div#cnt_general_membresia .item-membresia:nth-child(3) footer.membresia-footer {
     flex-direction: row;
     align-items: center;
     align-content: center;
-    justify-content: space-around;
-    gap: .5rem;
-    flex: 1 0 150px;
+    justify-content: space-between;
+    gap: 0.5rem;
 }
 
 .cnt-alianza-imagenes figure img:nth-child(2) {

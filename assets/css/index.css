@@ -330,6 +330,7 @@
         justify-content: space-between;
         gap: 1rem;
         flex-wrap: wrap;
+        margin-bottom: 1rem;
     }
     
     form .form-group {
@@ -337,7 +338,7 @@
     }
 
     form .cnt-input .form-group {
-        flex: 1 0 205px;
+        flex: 1 0 200px;
     }
 
     .form-btn-content {

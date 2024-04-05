@@ -183,6 +183,8 @@
 
     .item-membresia {
         max-width: 500px;
+        flex: none !important;
+        min-height: auto !important;
     }
 
     div#cnt_general_membresia .subtitulo {
