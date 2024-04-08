@@ -14,7 +14,7 @@
 
         <div class="cnt-links">
             <div class="cnt-links-division">
-                <a href="<?php echo $config['direc']?>index.php#beneficio" class="nav-link">
+                <a href="<?php echo $config['direc']?>index.php#cnt_general_pre_beneficios" class="nav-link">
                     <span class="nav-span">Beneficios</span>
                 </a>
                 <a href="<?php echo $config['direc_sub']?>plataforma.php" class="nav-link">
@@ -72,7 +72,7 @@
             </div>
         </div>
 		<div class="cnt-links">
-			<a href="<?php echo $config['direc']?>index.php#beneficio" class="nav-link">Beneficios</a>
+			<a href="<?php echo $config['direc']?>index.php#cnt_general_pre_beneficios" class="nav-link">Beneficios</a>
 			<a href="<?php echo $config['direc_sub']?>plataforma.php" class="nav-link">Plataforma</a>
 			<a href="<?php echo $config['direc_sub']?>membresia.php" class="nav-link">Membres&iacute;a</a>
 			<a href="https://www.instagram.com/" target="_blank" class="nav-link icon-nav-link">
