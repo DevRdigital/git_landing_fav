@@ -395,6 +395,7 @@ div#cnt_general_membresia .item-membresia:nth-child(3) .titulo-membresia {
 
 .item-membresia footer.membresia-footer span:nth-child(1) {
     color: var(--texto-claro);
+    font-weight: bold;
 }
 
 .item-membresia footer.membresia-footer span:nth-child(2) {
