@@ -10,13 +10,13 @@
         </div>
 		<div class="footer-der">
 
-			<a href="https://www.google.com/" target="_blank">
+			<a href="https://explorefav.com/tycdp.html" target="_blank">
                 Condiciones de uso
             </a>
-            <a href="https://www.google.com/" target="_blank">
+            <a href="https://explorefav.com/tycdp.html" target="_blank">
                 Pol&iacute;ticas de privacidad
             </a>
-            <a href="https://www.instagram.com/" target="_blank" class="nav-link icon-nav-link">
+            <a href="https://www.instagram.com/explorefav/" target="_blank" class="nav-link icon-nav-link">
                 <figure>
                     <img src="<?php echo $config['direc']?>assets/img/icons/instagram.svg">
                 </figure>

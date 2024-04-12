@@ -64,7 +64,7 @@ section.membresia-content.home-bkg-image figure, section.membresia-content.home-
 
 .access-cuadro-en-imagen-content .access-empresas img {
     width: 100%;
-    height: 50px;
+    max-width: 100px;
 }
 
 .access-texto span {
@@ -113,7 +113,7 @@ section.membresia-content.home-bkg-color-azul {
     flex: 1 0 350px;
     border-radius: 0.5rem;
     gap: 1rem;
-    min-height: 350px;
+    min-height: 370px;
     max-width: 350px;
 }
 
@@ -411,4 +411,24 @@ div#cnt_general_restaurantes {
     left: 0;
     background-color: #ffffff;
     transform: translateX(-0.5rem);
+}
+
+/* Correcciones */
+
+.titulo-porcentaje-numero {
+    font-size: 3rem;
+    color: var(--color-main);
+    font-weight: bold;
+    display: flex;
+    align-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+span.titulo-porcentaje {
+    font-size: 1.5rem;
+    transform: translateY(-12px);
+    font-weight: 200;
 }

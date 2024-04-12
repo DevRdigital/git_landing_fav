@@ -30,7 +30,7 @@
                 </a>
 
             </div>
-            <a href="https://www.google.com/" class="btn btn-primary">
+            <a href="#form_contacto" class="btn btn-primary">
                 Solicita tu Demo 
             </a>
         </div>
@@ -45,7 +45,7 @@
             </figure>
             Ecuador
         </a>
-        <a href="https://www.google.com/" class="btn btn-secondary">
+        <a href="#form_contacto" class="btn btn-secondary">
             Solicita tu Demo 
         </a>
         <div class="btnHam">
@@ -62,7 +62,7 @@
                 </figure>
                 Ecuador
             </a>
-            <a href="https://www.google.com/" class="btn btn-secondary">
+            <a href="#form_contacto" class="btn btn-secondary">
                 Solicita tu Demo 
             </a>
             <div class="btnHam-invertido">
@@ -75,7 +75,7 @@
 			<a href="<?php echo $config['direc']?>index.php#cnt_general_pre_beneficios" class="nav-link">Beneficios</a>
 			<a href="<?php echo $config['direc_sub']?>plataforma.php" class="nav-link">Plataforma</a>
 			<a href="<?php echo $config['direc_sub']?>membresia.php" class="nav-link">Membres&iacute;a</a>
-			<a href="https://www.instagram.com/" target="_blank" class="nav-link icon-nav-link">
+			<a href="https://www.instagram.com/explorefav/" target="_blank" class="nav-link icon-nav-link">
                 <figure>
                     <img src="<?php echo $config['direc']?>assets/img/icons/instagram_white.svg">
                 </figure>

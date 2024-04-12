@@ -81,6 +81,10 @@
         background-color: var(--bk-blanco);
     }
 
+    span.nav-span, .nav-link {
+        font-weight: 700;
+    }
+
 /*---------- NAV MOBILE ----------*/
 
     .active-nav {
@@ -276,11 +280,6 @@
         align-items: flex-start;
         flex-wrap: nowrap;
     }
-    /*
-    .cnt-general-doble-izq {
-        max-width: 500px;
-    }
-    */
 
     .cnt-general-doble-izq, .cnt-general-doble-der {
         width: 100%;
@@ -313,9 +312,19 @@
 
     span.subtitulo {
         font-weight: bold;
+        font-size: calc(12px + (16 - 14) * ((100vw - 10px) / (800 - 600)));
     }
 
-    /* Formularios */
+    .max-ancho
+    {
+        width: 100%;
+        display:block;
+        margin: 0 auto; 
+        padding: 0.5rem;
+        max-width: 1440px;
+    }
+
+/* Formularios */
 
     form {
         display: flex;

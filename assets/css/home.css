@@ -149,14 +149,16 @@ div#cnt_general_beneficio {
 .cnt-items-beneficio {
     display: flex;
     flex-direction: row;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     align-content: flex-start;
     justify-content: flex-start;
     align-items: flex-start;
     width: 100%;
+    /*
     overflow: hidden;
     overflow-x: scroll;
     scroll-snap-type: x proximity;
+    */
 }
 
 .item-beneficio {
@@ -173,6 +175,8 @@ div#cnt_general_beneficio {
 
 .item-beneficio span {
     text-align: center;
+    font-size: calc(10px +(15 - 14)*((100vw - 10px) /(800 - 600)));
+    font-weight: 300;
 }
 
 /* Section Covermanager*/
@@ -205,12 +209,12 @@ div#cnt_general_covermanager {
 }
 
 .cnt-alianza-texto span, .cnt-alianza-pre-numeros span {
-    font-size: calc(20px + (20 - 12) * ((100vw - 300px) / (1600 - 300)));
+    font-size: calc(16px + (20 - 12) * ((100vw - 300px) / (1600 - 300)));
 }
 
 .cnt-alianza-texto span strong, .cnt-alianza-pre-numeros span strong {
     font-weight: bold;
-    font-size: calc(20px + (20 - 12) * ((100vw - 300px) / (1600 - 300)));
+    font-size: calc(16px + (20 - 12) * ((100vw - 300px) / (1600 - 300)));
 }
 
 .cnt-alianza-numeros {
@@ -319,8 +323,8 @@ span#experiencia_titulo {
 
 #cnt_general_membresia .cnt-general-triple {
     overflow: hidden;
-    overflow-x: scroll;
     padding: 0.5rem;
+    flex-wrap: wrap;
 }
 
 div#cnt_general_membresia {
@@ -341,22 +345,32 @@ div#cnt_general_membresia .subtitulo {
 .item-membresia {
     background-color: #ffffff;
     border-radius: 0.5rem;
-    min-height: 300px;
+    min-height: 400px;
     display: flex;
     flex-direction: column;
     gap: 1rem;
-    flex: 1 0 350px;
+    flex: 1 0 405px;
     position: relative;
     overflow: hidden;
     padding-bottom: 2rem;
 
-    box-shadow: 0px 2px 7px 7px rgba(0,0,0,0.075);
-    -webkit-box-shadow: 0px 2px 7px 7px rgba(0,0,0,0.075);
-    -moz-box-shadow: 0px 2px 7px 7px rgba(0,0,0,0.075);
+    box-shadow: 0px 2px 5px 3px rgba(0,0,0,0.075);
+    -webkit-box-shadow: 0px 2px 5px 3px rgba(0,0,0,0.075);
+    -moz-box-shadow: 0px 2px 5px 3px rgba(0,0,0,0.075);
 }
 
 .item-membresia .membresia-body {
     padding: 1rem;
+}
+div#cnt_general_membresia .item-membresia .titulo-membresia {
+    font-weight: bold;
+    font-size: calc(12px + (16 - 12) * ((100vw - 300px) / (900 - 600)));
+}
+
+div#cnt_general_membresia .item-membresia p {
+    margin-top: 1rem;
+    font-weight: 300;
+    font-size: calc(18px + (10 - 12) * ((30vw - 100px) / (900 )));
 }
 
 div#cnt_general_membresia .item-membresia:nth-child(1) .titulo-membresia {
