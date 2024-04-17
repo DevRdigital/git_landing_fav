@@ -28,14 +28,14 @@
         justify-content: space-between;
     }
 
-    .cnt-logo-nav {
+    div#cnt_navegador .cnt-logo-nav {
         display: flex;
         flex-direction: row;
         align-items: center;
         gap: 10px;
     }
 
-    .cnt-logo-nav span {
+    div#cnt_navegador .cnt-logo-nav span {
         color: var(--color-main);
     }
 
@@ -89,7 +89,7 @@
 
     .active-nav {
         width: 100% !important;
-        padding: 1rem !important;
+        padding: 1rem;
         top: 0;
         position: absolute;
     }
@@ -105,10 +105,14 @@
     #navegador_fav_mobile .cnt-logo-nav {
         display: flex;
         flex-direction: row;
-        justify-content: space-between;
-        padding: 1rem 0;
+        align-items: center;
+        gap: 10px;
+
+        margin: 0 auto;
+        padding: 1rem;
+        width: 100%;
         max-width: 500px;
-        margin: auto;
+        justify-content: space-between;
     }
 
     #navegador_fav_mobile a {
@@ -146,12 +150,8 @@
     }
 
     #navegador_fav_mobile #cnt_navegador_mobile .cnt-logo-nav {
-        margin: 0 auto;
-        padding: 0;
+        padding: 1rem;
         padding-bottom: 2rem;
-        width: 100%;
-        max-width: 500px;
-        justify-content: space-between;
     }
 
     #navegador_fav_mobile #cnt_navegador_mobile .cnt-logo-nav a:first-child {
@@ -164,6 +164,23 @@
     
     #cnt_navegador_mobile .btnHam-invertido .lineaRes {
         background-color: var(--color-main);
+    }
+
+
+    div#cnt_navegador_mobile .cnt-links a.nav-link:focus,
+    div#cnt_navegador_mobile .cnt-links a.nav-link:hover,
+    div#cnt_navegador_mobile .cnt-links a.nav-link:active {
+        color: var(--color-main-obscuro) !important;
+        text-decoration: none !important;
+        border-bottom: solid 1px var(--color-main-obscuro) !important;
+    }
+
+    /* Secundario */
+
+    div#cnt_navegador_secundario .cnt-logo-nav {
+        display: block;
+        width: 60px;
+        position: relative;
     }
 
 
@@ -323,6 +340,14 @@
         padding: 0.5rem;
         max-width: 1440px;
     }
+
+
+    
+  /* Agregado por GERMAN*/
+  .loading {
+    /* Agregado por GERMAN*/
+    background-color: #ffffff !important;
+  }
 
 /* Formularios */
 

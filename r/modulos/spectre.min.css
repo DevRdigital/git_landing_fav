@@ -311,10 +311,10 @@ a {
   outline: none;
   text-decoration: none;
 }
-
+/*
 a:focus {
   box-shadow: 0 0 0 .1rem rgba(87, 85, 217, .2);
-}
+}*/
 
 a:focus,
 a:hover,

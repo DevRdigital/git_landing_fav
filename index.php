@@ -70,12 +70,7 @@
                     <div class="cnt-centrado">
                         <div>
                             <figure class="icono-centrado">
-                                <svg xmlns="http://www.w3.org/2000/svg" fill="none">
-                                    <g filter="url(#filter0_d_1_149)">
-                                        <path d="M66.9236 85.8964L66.7771 85.75H66.57H46.94C43.3861 85.75 40.5 82.8639 40.5 79.31V26.94C40.5 23.3861 43.3861 20.5 46.94 20.5H115.67H115.68C119.234 20.5 122.12 23.3861 122.12 26.94V79.31C122.12 82.8639 119.234 85.75 115.68 85.75H96.05H95.8429L95.6964 85.8964L81.31 100.283L66.9236 85.8964Z" fill="white" stroke="#EBEBEB"/>
-                                        <path d="M94.56 42.3998C90.9 38.7398 84.97 38.7398 81.31 42.3998C77.65 38.7398 71.72 38.7398 68.06 42.3998C64.4 46.0598 64.4 51.9898 68.06 55.6498L81.31 68.8998L94.56 55.6498C98.22 51.9898 98.22 46.0598 94.56 42.3998Z" fill="#FC446E"/>
-                                    </g>
-                                </svg>
+                                <img src="./assets/img/icons/heart.png">
                             </figure>
         
                             <span class="titulo-decorado">
@@ -276,7 +271,9 @@
                                 <div id="cnt_experiencia_items">
                                     <div class="experiencia-item">
                                         <span class="experiencia-item-titulo">#1: Conocer</span>
-                                        <span>Descargarán la APP FAV o ingresarán a la website <strong>www.explorefav.com</strong></span>
+                                        <span>Descargarán la APP FAV o ingresarán a la website 
+                                            <a href="https://www.explorefav.com/" target="_blank"><strong>www.explorefav.com</strong></a>
+                                        </span>
                                     </div>
         
                                     <div class="experiencia-item">
@@ -373,43 +370,44 @@
                             </div>
                             <div class="cnt-general-doble-der">
     
-                                <form id="form_contacto">
+                                <form id="form_contacto" onsubmit="return false;">
     
                                     <div class="form-group">
                                         <label class="form-label" for="contacto_nombre">Nombre completo</label>
-                                        <input class="form-input" type="text" id="contacto_nombre" >
+                                        <input class="form-input" type="text" id="contacto_nombre" name="nombre">
                                     </div>
     
                                     <div class="form-group">
                                         <label class="form-label" for="contacto_email">Correo Electr&oacute;nico</label>
-                                        <input class="form-input" type="text" id="contacto_email" >
+                                        <input class="form-input" type="text" id="contacto_email" name="email">
                                     </div>
     
                                     <div class="form-group">
                                         <label class="form-label" for="contacto_establecimiento">Nombre del Establecimiento</label>
-                                        <input class="form-input" type="text" id="contacto_establecimiento" >
+                                        <input class="form-input" type="text" id="contacto_establecimiento" name="establecimiento">
                                     </div>
     
                                     <div class="cnt-input">
     
                                         <div class="form-group">
                                             <label class="form-label" for="contacto_ciudad">Ciudad</label>
-                                            <input class="form-input" type="text" id="contacto_ciudad" >
+                                            <input class="form-input" type="text" id="contacto_ciudad" name="ciudad">
                                         </div>
     
                                         <div class="form-group">
                                             <label class="form-label" for="contacto_tel">Tel&eacute;fono</label>
-                                            <input class="form-input" type="text" id="contacto_tel" >
+                                            <input class="form-input" type="text" id="contacto_tel" name="tel">
                                         </div>
     
                                     </div>
     
                                     <div class="form-group">
-                                        <textarea class="form-input" id="contacto_mensaje"  rows="6"></textarea>
+                                        <textarea class="form-input" id="contacto_mensaje" name="mensaje" rows="6"></textarea>
                                     </div>
     
                                     <div class="form-btn-content">
-                                        <input type="submit" class="btn btn-primary" id="btn_submit_contacto" value="Solicita tu Demo">
+                                        <!--<input type="submit" class="btn btn-primary" id="btn_submit_contacto" value="Solicita tu Demo">-->
+                                        <button type="submit" class="btn btn-primary" id="btn_submit_contacto">Solicita tu Demo</button>
                                     </div>
     
                                 </form>

@@ -15,7 +15,7 @@ NodeList.prototype.remove  = HTMLCollection.prototype.remove = function() {for(v
 let $_cntotal   = 0;
 const $r = {
       conf  :   {
-                        "ruta": "https://apidev.efis.es/servicio/call/",
+                        "ruta": "https://sandbox.rdigital.me/clientes/fav/servicio/call/",
                         "url":{},
                         "metodo":{
                            "post":  "post",
@@ -774,7 +774,8 @@ const $r = {
                   _contenedor_modal.style.fontSize     = "0.8rem";
                   _contenedor_modal.style.borderRadius = "2px";
                   _contenedor_modal.style.textAlign    = "center";
-                  _contenedor_modal.style.background   = "linear-gradient(-45deg, rgb(17 18 18) 0%, rgb(81 81 81) 100%)";
+                  //_contenedor_modal.style.background   = "linear-gradient(-45deg, rgb(17 18 18) 0%, rgb(81 81 81) 100%)";
+                  _contenedor_modal.style.background   = "linear-gradient(-45deg, var(--bk-rosa) 0%, var(--bk-rosa-obscuro) 100%)";
                   _contenedor_modal.style.color        = "#ffffff";
                break;
                case "error":

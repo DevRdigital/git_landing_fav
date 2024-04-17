@@ -110,10 +110,11 @@
     figure.img-borde-der {
         top: -4rem !important;
     }
-
+    /*
     figure.img-borde-izq {
-        top: 4rem !important;
+        top: 3rem !important;
     }
+    */
 
     div#cnt_general_pre_beneficios .img-borde-der img, div#cnt_general_pre_beneficios .img-borde-izq img {
         width: 150px !important;
@@ -244,7 +245,7 @@
 
     #form_contacto .form-btn-content {
         display: flex;
-        justify-content: flex-end;
+        justify-content: flex-start;
         flex-wrap: wrap;
         flex-direction: row;
         align-content: center;
