@@ -13,13 +13,13 @@
 
         <div class="cnt-links">
             <div class="cnt-links-division">
-                <a href="#cnt_general_pre_beneficios" class="nav-link">
+                <a href="#cnt_general_pre_beneficios" class="nav-link" data-link>
                     <span class="nav-span">Beneficios</span>
                 </a>
                 <a href="https://www.explorefav.com/" target="_blank" class="nav-link">
                     <span class="nav-span">Plataforma</span>
                 </a>
-                <a href="#cnt_general_membresia" class="nav-link">
+                <a href="#cnt_general_membresia" class="nav-link" data-link>
                     <span class="nav-span">Membres&iacute;a</span>
                 </a>
                 <a href="https://www.instagram.com/" target="_blank" class="nav-link icon-nav-link">
@@ -52,7 +52,7 @@
             <div class="lineaRes -bottom"></div>
         </div>
     </div>
-	<div id="cnt_navegador_mobile">
+	<div id="cnt_navegador_mobile" class="no-active-nav">
         <div class="cnt-logo-nav">
             <a href="<?php echo $config['direc']?>index.php">
                 <figure>
@@ -69,9 +69,9 @@
             </div>
         </div>
 		<div class="cnt-links">
-			<a href="#cnt_general_pre_beneficios" class="nav-link">Beneficios</a>
+			<a href="#cnt_general_pre_beneficios" class="nav-link" data-link>Beneficios</a>
 			<a href="https://www.explorefav.com/" target="_blank" class="nav-link">Plataforma</a>
-			<a href="#cnt_general_membresia" class="nav-link">Membres&iacute;a</a>
+			<a href="#cnt_general_membresia" class="nav-link" data-link>Membres&iacute;a</a>
 			<a href="https://www.instagram.com/explorefav/" target="_blank" class="nav-link icon-nav-link">
                 <figure>
                     <img src="<?php echo $config['direc']?>assets/img/icons/instagram_white.svg">

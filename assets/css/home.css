@@ -402,7 +402,7 @@ div#cnt_general_membresia .item-membresia:nth-child(3) .titulo-membresia {
 
 .item-membresia footer.membresia-footer span:nth-child(2) {
     color: var(--texto-gris);
-    font-weight: 100;
+    font-weight: 700;
 }
 
 div#cnt_general_membresia .item-membresia:nth-child(1) footer.membresia-footer {
