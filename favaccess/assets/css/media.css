@@ -1,0 +1,334 @@
+@media (max-width: 800px)
+{
+
+    html body * {
+        font-size:calc(14px + (14 - 12) * ((100vw - 300px) / (1600 - 300)));
+    }
+
+    /* HOME */
+    
+    #cnt_home_presentacion .btn.btn-primary { width: 50%;}
+
+    div#cnt_general_presentacion, div#cnt_general_beneficio, div#cnt_general_impulso, div#cnt_general_servicios, div#cnt_general_experiencia, div#cnt_general_membresia, div#cnt_general_formulario {
+        padding: 1rem !important;
+    }
+
+    .cnt-alianza-imagenes .subtitulo {
+        font-size: calc(18px + (16 - 14) * ((100vw - 10px) / (800 - 600)));
+        margin-bottom: 1rem;
+        display: block;
+    }
+
+    div#cnt_general_covermanager {
+        padding-bottom: 2rem !important;
+    }
+
+    #cnt_general_covermanager .cnt-general-doble-der { display: none;}
+
+    .cnt-general-doble-izq .alianza-img-calcu {
+        display:block !important;
+        padding-bottom: 4rem;
+    }
+
+    div#cnt_general_covermanager figure.alianza-img-calcu img
+    {
+        width: 100%;
+        max-width: 400px;
+    }
+
+
+    div#cnt_general_covermanager figure.alianza-img-calcu img:nth-child(2) {
+        position: absolute;
+        transform: translate(-6rem, 7rem);
+    }
+
+    #cnt_home_presentacion div:first-child {
+        height: 500px;
+    }
+
+    #cnt_home_presentacion .texto-claro {
+        font-size: calc(14px + (16 - 14) * ((100vw - 10px) / (800 - 600))) !important;
+    }
+
+    #cnt_home_presentacion div:first-child {
+        width: 65% !important;
+    }
+
+    div#cnt_home_img_libres {
+        position: absolute !important;
+        top: 0;
+        width: 90vw;
+        height: 500px;
+
+        /* DISPLAY */
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: flex-end;
+        align-content: flex-end;
+    }
+
+    figure.img-cuadro-uno {
+        width: 100%;
+
+        /*Display*/
+        display: flex;
+        justify-content: flex-end;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-content: flex-end;
+        align-items: flex-end;
+    }
+
+    div#cnt_general_presentacion #cnt_home_img_libres .img-cuadro-uno img:nth-child(1) {
+        width: 40% !important;
+        min-width: 250px;
+        max-width: 350px !important;
+    }
+
+    div#cnt_general_presentacion #cnt_home_img_libres .img-cuadro-uno img:nth-child(2) {
+        transform: translate(5rem, -6rem) !important;
+        width: 22% !important;
+        min-width: 150px;
+    }
+    
+    div#cnt_general_presentacion #cnt_home_img_libres .img-cuadro-uno img:nth-child(3) {
+        transform: translate(0rem, -12rem) !important;
+        width: 22% !important;
+        min-width: 150px;
+    }
+
+    .cnt-general-doble, .cnt-general-triple, .cnt-general-cuadruple {
+        flex-wrap: wrap !important;
+    }
+
+    span.titulo-decorado {
+        text-align: center;
+    }
+
+    figure.img-borde-der {
+        top: -4rem !important;
+    }
+    /*
+    figure.img-borde-izq {
+        top: 3rem !important;
+    }
+    */
+
+    div#cnt_general_pre_beneficios .img-borde-der img, div#cnt_general_pre_beneficios .img-borde-izq img {
+        width: 150px !important;
+        height: 150px !important;
+    }
+
+    div#cnt_general_pre_beneficios {
+        min-height: 375px;
+        align-items: flex-end !important;
+    }
+
+    .cnt-centrado {
+        width: 70%;
+        min-width: 200px;
+    }
+
+    #cnt_general_covermanager .cnt-general-doble {
+        justify-content: center;
+    }
+    div#cnt_general_beneficio {
+        width: 100% !important;
+    }
+
+    div#cnt_general_beneficio, .cnt-general-triple, cnt-general-cuadruple {
+        margin: auto;
+        width: max-content;
+        display: flex;
+        flex-direction: column !important;
+        align-content: center !important;
+    }
+
+    .cnt-items-beneficio {
+        flex-direction: column !important;
+        align-items: flex-start !important;
+        margin: auto !important;
+        overflow-x: hidden !important;
+        width: auto !important;
+    }
+    
+    .home-content .item-beneficio {
+        flex-direction: row !important;
+        padding: 0 !important;
+        flex: auto !important;
+    }
+
+    .home-content figure.item-beneficio-img {
+        min-width: 110px;
+    }
+
+    .home-content .item-beneficio span {
+        text-align: left !important;
+    }
+
+    div#cnt_general_servicios .titulo-general {
+        width: 100% !important;
+    }
+
+    div#cnt_membresia_titulo {
+        display: flex !important;
+        align-items: flex-start !important;
+        flex-direction: column !important;
+    }
+
+    #cnt_general_membresia .cnt-general-triple {
+        align-items: center;
+    }
+
+    .item-membresia {
+        max-width: 500px;
+        flex: none !important;
+        min-height: auto !important;
+    }
+
+    div#cnt_general_membresia .subtitulo {
+        margin: 0 !important;
+    }
+
+    .cnt-general-triple, cnt-general-cuadruple {
+        width: fit-content;
+    }
+
+    #cnt_general_covermanager .cnt-general-doble-izq {
+        display: flex;
+        gap: 2rem;
+        flex-direction: column;
+        align-items: flex-start;
+        flex: none;
+    }
+
+    div#cnt_general_experiencia, div#cnt_membresia_titulo, div#cnt_general_formulario,div#cnt_general_servicios {
+        max-width: 500px;
+        margin: auto;
+    }
+
+    #cnt_general_experiencia .cnt-general-doble-izq, #cnt_general_experiencia .cnt-general-doble-der {
+        flex: auto !important;
+        flex-direction: column !important;
+    }
+
+    .cnt-alianza-numeros {
+        flex-direction: column !important;
+    }
+
+    .item-impulso img {
+        max-width: 100px;
+    }
+
+    span.numero-item-texto {
+        font-size: calc(11px + (16 - 14) * ((100vw - 10px) / (800 - 600)));
+    }
+
+    .titulo-general, .titulo-general-blanco, .titulo-general-rosa {
+        font-size: calc(28px + (22 - 14) * ((100vw - 300px) / (800 - 600))) !important;
+    }
+
+    .experiencia-item span:nth-child(2) {
+        width: 70%;
+        display: block;
+    }
+
+    span.titulo-impulso, span.experiencia-item-titulo {
+        font-size: 1.1rem !important;
+    }
+
+    #cnt_general_formulario .titulo-general-blanco br {
+        display: none;
+    }
+
+    #form_contacto .form-btn-content {
+        display: flex;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-content: center;
+        align-items: center;
+    }
+
+    #footer_main .contenido_footer {
+        flex-direction: column;
+        gap: 3rem;
+    }
+
+    #footer_main .contenido_footer .footer-izq, #footer_main .contenido_footer .footer-der {
+        flex-direction: column;
+        width: 100%;
+    }
+    #footer_main .contenido_footer .footer-izq {
+        align-items: flex-start;
+        display: flex;
+        flex-direction: column;
+    }
+    #footer_main .contenido_footer .footer-der {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-content: center;
+        justify-content: space-between;
+    }
+
+    .cnt-alianza-imagenes, .cnt-alianza-imagenes figure {
+        gap: 0.5rem !important;
+        flex: 0 !important;
+        flex-direction: column !important;
+        align-items: flex-start !important;
+        align-content: flex-start !important;
+        justify-content: flex-start !important;
+    }
+    
+    .cnt-alianza-imagenes figure img {
+        height: max-content !important;
+        min-height: 30px !important;
+
+        max-height: 90px !important;
+    }
+
+    .cnt-alianza-imagenes figure img:nth-child(2) {
+        height: 30px !important;
+        min-height: 30px !important;
+        max-height: 30px !important;
+    }
+
+    form .cnt-input .form-group {
+        flex: none !important;
+    }
+
+    .cnt-input {
+        margin-bottom: 1rem;
+    }
+
+    /* MEMBRESIA */
+
+    .cnt-general-cuadruple {
+        flex-direction: column !important;
+        align-content: center !important;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+
+    .membresia-content .cnt-general-cuadruple {
+        overflow: hidden !important;
+    }
+
+    .membresia-content #cnt_general_beneficios_access .item-access, .membresia-content #cnt_general_beneficios .item-beneficio {
+        width: 100% !important;
+        max-width: 450px !important;
+        flex: none;
+    }
+    #cnt_general_beneficios_access .item-access {
+        padding: 2rem;
+    }
+
+    div#cnt_general_restaurantes {
+        padding: 1rem !important;
+    }
+
+}
