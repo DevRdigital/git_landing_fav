@@ -15,7 +15,7 @@ NodeList.prototype.remove  = HTMLCollection.prototype.remove = function() {for(v
 let $_cntotal   = 0;
 const $r = {
       conf  :   {
-                        "ruta": "https://sandbox.rdigital.me/clientes/fav/servicio/call/",
+                        "ruta": "https://explorefav.com/membresia/servicio/call/",
                         "url":{},
                         "metodo":{
                            "post":  "post",

@@ -1,0 +1,15 @@
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule ^(.*)$ $1.php
+
+# *SECTION -  LLAMADAS PARA xxxx
+# RewriteRule ^get/productos/(.+)$       index.php?call=traeProductos&dato=$1 [NC,L]
+# RewriteRule ^get/modelos([0-9]+)/ordena/([A-Z_a-z_-]+)$    index.php?call=getVersionModelos&id=$1&q=$2 [NC,L]   
+# RewriteRule ^di/([0-9]+)/(\d{4}-\d{2}-\d{2})$ index.php?call=di&idPac=$1&fecha=$2 [NC,L]
+
+# German - Panel
+RewriteRule ^mailing/unete 	          unete.php [NC,L]
+
+# Ejemplo sin parámetros
+# RewriteRule ^trae/empresas$ 			app.php?call=testApi [NC,L]
+# RewriteRule ^trae/empresa/([0-9]+)$ 	app.php?call=testApiSimple&idempresa=$1 [NC,L]
