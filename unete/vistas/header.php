@@ -22,7 +22,7 @@
                 <a href="#cnt_general_membresia" class="nav-link" data-link>
                     <span class="nav-span">Membres&iacute;a</span>
                 </a>
-                <a href="https://www.instagram.com/" target="_blank" class="nav-link icon-nav-link">
+                <a href="https://www.instagram.com/explorefav" target="_blank" class="nav-link icon-nav-link">
                     <figure>
                         <img src="<?php echo $config['direc']?>assets/img/icons/instagram.svg">
                     </figure>

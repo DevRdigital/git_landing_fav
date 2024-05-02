@@ -149,7 +149,7 @@
     
                         <div class="cnt-general-doble">
                             <div class="cnt-general-doble-izq">
-                                <span class="subtitulo">Alianza estrategica con COVERMANAGER</span>
+                                <span class="subtitulo">Alianza estratégica con COVERMANAGER</span>
                                 <div class="cnt-alianza-imagenes">
                                     <figure>
                                         <img async loading="lazy" src="./assets/img/icons/fav.svg">
@@ -172,7 +172,7 @@
                                 </div>
             
                                 <div class="cnt-alianza-pre-numeros">
-                                    <span>Cover Manager es líder tecnológico en la industria Hospitalaria desde hace mas de 15 años.</span>
+                                    <span>Cover Manager es un referente de la industria de Hospitality hace mas de 10 años.</span>
                                     <br>
                                     <span class="subtitulo">Presente en m&aacute;s de:</span>
                                 </div>
@@ -188,7 +188,7 @@
                                     </div>
                                     <div class="cnt-numero-item">
                                         <span class="numero-item-titulo">+150M</span>
-                                        <span class="numero-item-texto">De reservas en restaurantes realizadas en 2022</span>
+                                        <span class="numero-item-texto">De reservas en restaurantes realizadas en 2023</span>
                                     </div>
                                 </div>
                             </div>
@@ -239,7 +239,7 @@
                                 <p>
                                     Medición de satisfacción<br>
                                     Manejo del CRM, estrategia de marketing<br>
-                                    Servicio 24/7, integración de POS, Servicio para delivery y take away.
+                                    Servicio 24/7 los 365 días del año, integración POS, servicio para delivery y take away
                                 </p>
                             </div>
                         </div>
@@ -310,7 +310,7 @@
                         <div class="cnt-general-triple">
                             <div class="item-membresia membresia-standard">
                                 <div class="membresia-body">
-                                    <span class="titulo-membresia">Pre-servicio</span>
+                                    <span class="titulo-membresia">Standard</span>
                                     <p>
                                         Un completo sistema de inteligencia de gestión de reservas, mesas, lista de espera valoración post reserva y eventos gastronómicos.<br><br>
                                         CRM avanzado de clientes e informes y Integración con herramientas de MKT.<br><br>
@@ -324,7 +324,7 @@
     
                             <div class="item-membresia membresia-premium">
                                 <div class="membresia-body">
-                                    <span class="titulo-membresia">Durante el servicio</span>
+                                    <span class="titulo-membresia">Premium</span>
                                     <p>
                                          Todo lo incluido en el STANDARD + Cross-selling con grupo de restaurantes propios. Integración en POS y centralita de teléfonos.
                                          Establecimiento de orden de ocupación de mesas. NON-shows y política de cancelación.<br>
@@ -337,7 +337,7 @@
     
                             <div class="item-membresia membresia-performance">
                                 <div class="membresia-body">
-                                    <span class="titulo-membresia">Post-servicio</span>
+                                    <span class="titulo-membresia">Performance</span>
                                     <p>
                                         Todo lo incluido en el PREMIUM + Plan interactivo, configuración de alto rendimiento, precios dinámicos dependiendo fechas y zonas, reportes personalizados y Acceso de uso de la Api.
                                     </p>
