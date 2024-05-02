@@ -172,7 +172,7 @@
                                 </div>
             
                                 <div class="cnt-alianza-pre-numeros">
-                                    <span>Cover Manager está al servicio de la industria Hospitalaria hace mas de 10 años.</span>
+                                    <span>Cover Manager es un referente de la industria de Hospitality hace mas de 10 años.</span>
                                     <br>
                                     <span class="subtitulo">Presente en m&aacute;s de:</span>
                                 </div>
