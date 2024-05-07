@@ -96,7 +96,6 @@ section.membresia-content.home-bkg-color-azul {
 
 .cnt-general-cuadruple {
     overflow: hidden;
-    overflow-x: scroll;
     scroll-snap-type: x proximity;
     padding: 1rem 0;
 }
